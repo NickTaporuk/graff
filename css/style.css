@@ -1,0 +1,61 @@
+/* 
+    Document   : style
+    Created on : 15.08.2013, 18:37:03
+    Author     : Николай
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#statistica{border: solid 1px;width: 1200px; height: 545px;margin: 20px auto }
+#stat-text{
+    background: gainsboro;
+    display: block;
+    height: 30px;
+    width: 1200px;
+    text-align: left;
+}
+#stat-text span{
+    color: red;
+}
+#stat-text form[input] {
+    display: block;
+}
+#checkAdd{
+    height: 60px;
+    width: 1200px;
+    background: bisque;
+}
+#menu1{display: inline-block;width: 1200px;height: 490px; background:gainsboro}
+#legend{margin-left: 10px;}
+#legend1{margin-left: 40px;}
+#legend2{margin-left: 40px;}
+#legend3{margin-left: 40px;}
+#legend4{margin-left: 40px;}
+#legend5{margin-top: 12px;margin-left: 10px;}
+#legend6{margin-top: 12px;margin-left: 90px;}
+#legend7{margin-top: 12px;margin-left: 40px;}
+#legend8{margin-top: 12px;margin-left: 40px;}
+#ajax_utm_source{ position: relative; left:950px; width:300px; display:none;top: -512px;background: #dcebfc;border-radius: 10px;border: 2px solid lightseagreen;  }
+#ajax_utm_medium{ position: relative; left:1200px; width:300px; display:none;top: -512px;background: #dcebfc;border-radius: 10px;border: 2px solid lightseagreen;  }
+.select:hover{padding-left:10px;color:red;background:#ffffff;border-radius: 10px;border: 2px solid #ffffff; }
+.select1:hover{padding-left:10px;color:red;background:#ffffff;border-radius: 10px;border: 2px solid #ffffff; }
+/*
+таблица
+*/
+#grid{border:1px solid #000000;margin-top: 20px;margin:20px auto 0px;}
+#table{width:100%;border-collapse: collapse;}
+#table thead{background: #cdcad1;height: 40px; vertical-align: bottom;}
+#table thead td{background: #cdcad1;height: 40px;}
+#table td{height: 25px;border-bottom: 1px solid #eeeeee;text-align: center;}
+#table tbody tr:hover {background: #eeeeee;color: #000000;}
+#toTop {
+    width: 50px;
+    position: fixed; bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+#sum{background: #808080;}
+#pagination{margin-top: 10px;float:left;}
+#page{margin-top: 10px;color: #666;border:1px solid #999; padding:2px 5px 2px 5px;float:left;margin-left:10px;cursor: pointer;}
+#page:hover,#page:active{margin-top: 10px;color: #fff;border: 1px solid #999;background:#808080; padding:2px 5px 2px 5px;float:left;margin-left:10px;cursor: pointer;}
+#page-activ{margin-top: 10px;color: #fff;border: 1px solid #999;background:#808080; padding:2px 5px 2px 5px;float:left;margin-left:10px;cursor: pointer;}
+#TotalNumberOfVisits{border:1px solid #999;}
