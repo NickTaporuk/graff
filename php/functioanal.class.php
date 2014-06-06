@@ -1,6 +1,6 @@
 <?php
 
-class Functional
+class Observer
 {
 
     static function pdoConn($arr)
